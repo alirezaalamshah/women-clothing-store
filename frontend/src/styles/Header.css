@@ -1,0 +1,37 @@
+.header {
+  background-color: #171928;
+  height: 72px; /* هماهنگی با top در جستجو */
+}
+
+.logo {
+  text-decoration: none;
+  color: #edc967 !important;
+  font-weight: bold;
+}
+
+.nav-button {
+  color: #b0bec5 !important;
+  font-size: 1rem;
+}
+
+.nav-button:hover {
+  color: #edc967 !important;
+}
+
+.icon-button {
+  color: #b0bec5 !important;
+}
+
+.icon-button:hover {
+  color: #edc967 !important;
+}
+
+@media (max-width: 600px) {
+  .nav-button {
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+}
