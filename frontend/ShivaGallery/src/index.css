@@ -1,0 +1,11 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Basic body styles for the theme */
+body {
+  background-color: #000000; /* Black background */
+  color: #FBBE24; /* Default gold text */
+  font-family: 'Vazirmatn', sans-serif; /* Changed font to Vazirmatn */
+}
